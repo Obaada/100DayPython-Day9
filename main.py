@@ -12,3 +12,11 @@ programming_dictionary["New"] = "This is an added item"
 
 # empty the dictionary 
 # programming_dictionary = {}
+
+# Edit an item in a dictionary
+programming_dictionary["Bug"] = "This is an edited item"  
+
+# Loop through a dictionary
+for key in programming_dictionary:
+  print(key)
+  print(programming_dictionary[key])
